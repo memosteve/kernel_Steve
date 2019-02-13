@@ -14,6 +14,7 @@
     width:100%;
     height:80%;
     background-color: white;
+    
 }
 .Dominio,
 .Input{
@@ -32,12 +33,21 @@
     padding-left: 2px;
 }
 .Inputs input{
-    margin-top: 13px;
+    margin-top: 20px;
     padding-top:-2;
     width: 30px; 
 }
 .Agregar button {
-    margin-left: 20px;
-    margin-bottom: 5px;
+    margin-top: 10px;
     
 }
+.Bloque .scroll{
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.bloque .scroll::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+

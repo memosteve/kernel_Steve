@@ -20,35 +20,35 @@
     padding:2px;
     float: left;
     height:100%;
-    background-color:white;
 }
-
-.select_Scheduling {
-    margin-top: 10px;
-    float: right;
+.Scheduling .relleno{
+    font-size: 18px;
+    padding-top:3px;
+    padding-left:3px;
 }
-
-.Dominio,
-.Input{
-    height:80%;
-}
-.Dominio{
-    width: 70%;
+.CPU input {
+    width: 30px;
     float: left;
 }
-.Inputs{
-    width: 30%;
-    float: left;
+.CPU .parte1{
+    width: 100%;
+    height:60%;
 }
-.Dominio p{
-    padding-top: 19px;
-    padding-left: 2px;
+.CPU .parte2 {
+    width: 100%;
+    height: 40%;
 }
-.Inputs input{
-    margin-top: 18px;
-    padding-top:-2;
-    width: 30px; 
-    font-size: 15px;
-    text-align: center;
-
+.parte1 select{
+    margin-left:15%;
+    margin-top:10%;
+}
+.parte2 p,.parte2 input{
+    float: left; 
+}
+.parte2 p{
+    margin-top:3px;
+    margin-left:40px;
+}
+.parte2 input{
+    margin-left:20px;
 }
